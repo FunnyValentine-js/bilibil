@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D10E944F2DD86FC3004C4531 /* VideoPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10E944E2DD86FC3004C4531 /* VideoPlayer.swift */; };
 		D1DED0942DBA86A60068F872 /* SQLite in Frameworks */ = {isa = PBXBuildFile; productRef = D1DED0932DBA86A60068F872 /* SQLite */; };
 /* End PBXBuildFile section */
 
@@ -28,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D10E944E2DD86FC3004C4531 /* VideoPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayer.swift; sourceTree = "<group>"; };
 		D1DED0582DBA76980068F872 /* bilibil.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bilibil.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1DED0682DBA769A0068F872 /* bilibilTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bilibilTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1DED0722DBA769A0068F872 /* bilibilUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bilibilUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -82,6 +84,7 @@
 		D1DED04F2DBA76980068F872 = {
 			isa = PBXGroup;
 			children = (
+				D10E944E2DD86FC3004C4531 /* VideoPlayer.swift */,
 				D1DED05A2DBA76980068F872 /* bilibil */,
 				D1DED06B2DBA769A0068F872 /* bilibilTests */,
 				D1DED0752DBA769A0068F872 /* bilibilUITests */,
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D10E944F2DD86FC3004C4531 /* VideoPlayer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
